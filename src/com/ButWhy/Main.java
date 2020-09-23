@@ -10,7 +10,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
         String bruhName = scanner.nextLine();
-        System.out.println("and the name of the bruh is:" + bruhName);
+        System.out.println("jeppe"+ bruhName +"<jeppe>");
         scanner.close();
     }
 }
