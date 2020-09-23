@@ -5,12 +5,11 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("First Hello world");
-        System.out.println("Initiating new dev branch");
+        System.out.println("Dev Branch");
 
         Scanner scanner = new Scanner(System.in);
-        String bruhName = scanner.nextLine();
-        System.out.println("and the name of the bruh is:" + bruhName);
+        String output = scanner.nextLine();
+        System.out.println();
         scanner.close();
     }
 }
